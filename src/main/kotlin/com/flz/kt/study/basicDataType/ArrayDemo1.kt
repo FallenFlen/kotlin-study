@@ -9,6 +9,7 @@ fun main() {
     val array2 = arrayOf("s1", "s2", "s3", "s4")
     val map = array2.map { it.reversed() }
     map.forEach { println(it) }
+    println(array2[1])
 
     val array3: Array<String> = arrayOf("1", "2")
 }
