@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="498b2833-fbb3-4b4e-a84b-0fc9c9344ac9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/flz/kt/study/basicDataType/ArrayDemo1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/flz/kt/study/basicDataType/TypeCheckAndConvertDemo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/flz/kt/study/classAndObject/AbstractAnimal.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/flz/kt/study/classAndObject/ClassAndObjectDemo1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/flz/kt/study/classAndObject/Dog.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/flz/kt/study/classAndObject/HashiqiDog.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/flz/kt/study/classAndObject/Person.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,8 +38,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -59,7 +62,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/software/dev/SourceCode/kotlin-study/src/main/kotlin/com/flz/kt/study/demo1&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/software/dev/SourceCode/kotlin-study/src/main/kotlin/com/flz/kt/study/controlFlow&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -68,10 +71,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\software\dev\SourceCode\kotlin-study\src\main\kotlin\com\flz\kt\study\controlFlow" />
       <recent name="D:\software\dev\SourceCode\kotlin-study\src\main\kotlin\com\flz\kt\study\demo1" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.TypeCheckAndConvertDemoKt">
+  <component name="RunManager" selected="Kotlin.ClassAndObjectDemo1Kt">
     <configuration name="ArrayDemo1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.flz.kt.study.basicDataType.ArrayDemo1Kt" />
       <module name="kotlin-study.main" />
@@ -79,29 +83,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumDemo1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.flz.kt.study.basicDataType.NumDemo1Kt" />
+    <configuration name="ClassAndObjectDemo1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.flz.kt.study.classAndObject.ClassAndObjectDemo1Kt" />
       <module name="kotlin-study.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumDemo2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.flz.kt.study.basicDataType.NumDemo2Kt" />
+    <configuration name="ControlFlowDemo1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.flz.kt.study.controlFlow.ControlFlowDemo1Kt" />
       <module name="kotlin-study.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StrDemo1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.flz.kt.study.basicDataType.StrDemo1Kt" />
+    <configuration name="ControlFlowDemo2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.flz.kt.study.controlFlow.ControlFlowDemo2Kt" />
       <module name="kotlin-study.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TypeCheckAndConvertDemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.flz.kt.study.basicDataType.TypeCheckAndConvertDemoKt" />
+    <configuration name="ExceptionDemo1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.flz.kt.study.controlFlow.ExceptionDemo1Kt" />
       <module name="kotlin-study.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -109,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.TypeCheckAndConvertDemoKt" />
+        <item itemvalue="Kotlin.ClassAndObjectDemo1Kt" />
         <item itemvalue="Kotlin.ArrayDemo1Kt" />
-        <item itemvalue="Kotlin.StrDemo1Kt" />
-        <item itemvalue="Kotlin.NumDemo2Kt" />
-        <item itemvalue="Kotlin.NumDemo1Kt" />
+        <item itemvalue="Kotlin.ExceptionDemo1Kt" />
+        <item itemvalue="Kotlin.ControlFlowDemo2Kt" />
+        <item itemvalue="Kotlin.ControlFlowDemo1Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +133,9 @@
       <workItem from="1684936178587" duration="953000" />
       <workItem from="1684937153053" duration="149000" />
       <workItem from="1684937311674" duration="1445000" />
-      <workItem from="1684978952463" duration="2855000" />
+      <workItem from="1684978952463" duration="11871000" />
+      <workItem from="1685195825511" duration="619000" />
+      <workItem from="1685252337409" duration="4996000" />
     </task>
     <task id="LOCAL-00001" summary="init demo1">
       <created>1684937012858</created>
@@ -145,7 +151,28 @@
       <option name="project" value="LOCAL" />
       <updated>1684938711099</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="finish basic data type demo">
+      <created>1684981943907</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684981943907</updated>
+    </task>
+    <task id="LOCAL-00004" summary="finish all control flow and one of function demos">
+      <created>1685025032829</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685025032829</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update">
+      <created>1685025275497</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685025275497</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +192,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init demo1" />
     <MESSAGE value="add demo for basic data type part 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="add demo for basic data type part 1" />
+    <MESSAGE value="finish basic data type demo" />
+    <MESSAGE value="finish all control flow and one of function demos" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>
