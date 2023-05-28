@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="498b2833-fbb3-4b4e-a84b-0fc9c9344ac9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/flz/kt/study/classAndObject/AbstractAnimal.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/flz/kt/study/classAndObject/ClassAndObjectDemo1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/flz/kt/study/classAndObject/Dog.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/flz/kt/study/classAndObject/HashiqiDog.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/flz/kt/study/classAndObject/Person.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/flz/kt/study/classAndObject/Car.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/flz/kt/study/classAndObject/ClassAndObjectDemo2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/flz/kt/study/classAndObject/interfaceDemo/Demo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/flz/kt/study/classAndObject/interfaceDemo/FunInterfaceDemo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/flz/kt/study/classAndObject/interfaceDemo/MyConcorateClass.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/flz/kt/study/classAndObject/interfaceDemo/MyInterface.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,8 +39,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Kotlin File" />
+        <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -75,7 +77,7 @@
       <recent name="D:\software\dev\SourceCode\kotlin-study\src\main\kotlin\com\flz\kt\study\demo1" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.ClassAndObjectDemo1Kt">
+  <component name="RunManager" selected="Kotlin.FunInterfaceDemoKt">
     <configuration name="ArrayDemo1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.flz.kt.study.basicDataType.ArrayDemo1Kt" />
       <module name="kotlin-study.main" />
@@ -84,28 +86,28 @@
       </method>
     </configuration>
     <configuration name="ClassAndObjectDemo1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.flz.kt.study.classAndObject.ClassAndObjectDemo1Kt" />
+      <option name="MAIN_CLASS_NAME" value="com.flz.kt.study.classAndObject.basic.ClassAndObjectDemo1Kt" />
       <module name="kotlin-study.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ControlFlowDemo1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.flz.kt.study.controlFlow.ControlFlowDemo1Kt" />
+    <configuration name="ClassAndObjectDemo2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.flz.kt.study.classAndObject.basic.ClassAndObjectDemo2Kt" />
       <module name="kotlin-study.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ControlFlowDemo2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.flz.kt.study.controlFlow.ControlFlowDemo2Kt" />
+    <configuration name="DemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.flz.kt.study.classAndObject.interfaceDemo.DemoKt" />
       <module name="kotlin-study.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExceptionDemo1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.flz.kt.study.controlFlow.ExceptionDemo1Kt" />
+    <configuration name="FunInterfaceDemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.flz.kt.study.classAndObject.interfaceDemo.FunInterfaceDemoKt" />
       <module name="kotlin-study.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -113,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.FunInterfaceDemoKt" />
+        <item itemvalue="Kotlin.DemoKt" />
+        <item itemvalue="Kotlin.ClassAndObjectDemo2Kt" />
         <item itemvalue="Kotlin.ClassAndObjectDemo1Kt" />
         <item itemvalue="Kotlin.ArrayDemo1Kt" />
-        <item itemvalue="Kotlin.ExceptionDemo1Kt" />
-        <item itemvalue="Kotlin.ControlFlowDemo2Kt" />
-        <item itemvalue="Kotlin.ControlFlowDemo1Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +137,7 @@
       <workItem from="1684937311674" duration="1445000" />
       <workItem from="1684978952463" duration="11871000" />
       <workItem from="1685195825511" duration="619000" />
-      <workItem from="1685252337409" duration="4996000" />
+      <workItem from="1685252337409" duration="6444000" />
     </task>
     <task id="LOCAL-00001" summary="init demo1">
       <created>1684937012858</created>
@@ -172,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685025275497</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add class and object demo 1">
+      <created>1685263422961</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685263422961</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +204,7 @@
     <MESSAGE value="finish basic data type demo" />
     <MESSAGE value="finish all control flow and one of function demos" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="add class and object demo 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="add class and object demo 1" />
   </component>
 </project>

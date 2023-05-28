@@ -1,4 +1,4 @@
-package com.flz.kt.study.classAndObject
+package com.flz.kt.study.classAndObject.basic
 
 abstract class AbstractAnimal constructor(type: String) {
     protected var type: String

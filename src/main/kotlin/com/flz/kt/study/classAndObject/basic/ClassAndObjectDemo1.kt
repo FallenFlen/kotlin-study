@@ -1,4 +1,4 @@
-package com.flz.kt.study.classAndObject
+package com.flz.kt.study.classAndObject.basic
 
 fun main() {
     val p1 = Person("f1", "n1")

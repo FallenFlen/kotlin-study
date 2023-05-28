@@ -1,4 +1,4 @@
-package com.flz.kt.study.classAndObject
+package com.flz.kt.study.classAndObject.basic
 
 // open表示可以开放继承权，不加open等价于java中的final
 open class Dog constructor(type: String, age: Int) : AbstractAnimal(type) {

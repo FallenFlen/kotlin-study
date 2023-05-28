@@ -1,4 +1,4 @@
-package com.flz.kt.study.classAndObject
+package com.flz.kt.study.classAndObject.basic
 
 class Person constructor(firstName: String, lastName: String) {
     private var firstName: String

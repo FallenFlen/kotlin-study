@@ -1,4 +1,4 @@
-package com.flz.kt.study.classAndObject
+package com.flz.kt.study.classAndObject.basic
 
 class HashiqiDog : Dog {
     constructor(age: Int) : super("hsq", age) {
