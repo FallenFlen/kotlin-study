@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="498b2833-fbb3-4b4e-a84b-0fc9c9344ac9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/flz/kt/study/classAndObject/dataClassDemo/BankAccount.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/flz/kt/study/classAndObject/dataClassDemo/Demo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/flz/kt/study/classAndObject/extensionDemo/ArrayListSwapGlobal.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/flz/kt/study/classAndObject/extensionDemo/Demo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/flz/kt/study/classAndObject/sealedClassDemo/Demo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/flz/kt/study/classAndObject/sealedClassDemo/CommonSuccess.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/flz/kt/study/classAndObject/sealedClassDemo/CreatedSuccess.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/flz/kt/study/classAndObject/sealedClassDemo/ResponseResult.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/flz/kt/study/classAndObject/sealedClassDemo/Demo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/flz/kt/study/classAndObject/sealedClassDemo/Demo.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +38,10 @@
       <list>
         <option value="Class" />
         <option value="Kotlin Interface" />
-        <option value="Kotlin Class" />
         <option value="Kotlin Data Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Sealed Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -79,15 +79,14 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\software\dev\SourceCode\kotlin-study\src\main\kotlin\com\flz\kt\study\classAndObject\basic" />
     </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.flz.kt.study.classAndObject.sealedClassDemo" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.flz.kt.study.classAndObject.sealedClassDemo" />
+    </key>
   </component>
-  <component name="RunManager" selected="Kotlin.DemoKt (2)">
-    <configuration name="ClassAndObjectDemo2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.flz.kt.study.classAndObject.basic.ClassAndObjectDemo2Kt" />
-      <module name="kotlin-study.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.DemoKt (3)">
     <configuration name="DemoKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.flz.kt.study.classAndObject.extensionDemo.DemoKt" />
       <module name="kotlin-study.main" />
@@ -97,6 +96,13 @@
     </configuration>
     <configuration name="DemoKt (2)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.flz.kt.study.classAndObject.dataClassDemo.DemoKt" />
+      <module name="kotlin-study.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoKt (3)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.flz.kt.study.classAndObject.sealedClassDemo.DemoKt" />
       <module name="kotlin-study.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -118,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.DemoKt (3)" />
         <item itemvalue="Kotlin.DemoKt (2)" />
         <item itemvalue="Kotlin.DemoKt (1)" />
         <item itemvalue="Kotlin.FunInterfaceDemoKt" />
         <item itemvalue="Kotlin.DemoKt" />
-        <item itemvalue="Kotlin.ClassAndObjectDemo2Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +146,7 @@
       <workItem from="1684937311674" duration="1445000" />
       <workItem from="1684978952463" duration="11871000" />
       <workItem from="1685195825511" duration="619000" />
-      <workItem from="1685252337409" duration="8882000" />
+      <workItem from="1685252337409" duration="10162000" />
     </task>
     <task id="LOCAL-00001" summary="init demo1">
       <created>1684937012858</created>
@@ -191,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685264968623</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update demo">
+      <created>1685267228902</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1685267228902</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +229,7 @@
     <MESSAGE value="update" />
     <MESSAGE value="add class and object demo 1" />
     <MESSAGE value="adjust package and add demo for interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="adjust package and add demo for interface" />
+    <MESSAGE value="update demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="update demo" />
   </component>
 </project>
